@@ -22,11 +22,12 @@ For an odd-sized filter, all the previous layer pixels would be symmetrically ar
 Q3)How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations)
 solution: - Number of times required to perform 3x3 convolution operation to reach 1x1 from 199x199  is: 99
 
+
 n=199
 count=0
 while n>=3:
     count=count+1
-    print(str(n)+'x'+str(n)+'  '+'conv'+'  '+'3x3'+'----------------> '+ str(n-2)+'x'+str(n-2))
+    print('<br>'+str(n)+'x'+str(n)+'  '+'conv'+'  '+'3x3'+'----------------> '+ str(n-2)+'x'+str(n-2)+'<br/>')
     n=n-2 
     
 print("Number of times required to perform 3x3 convolution operation to reach 1x1 from 199x199  is:",count)
