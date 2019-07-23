@@ -8,6 +8,7 @@ Each filter applied to image will generate one result.
 
 If input image is 224x224x3 it is convolved with 5 of 3*3 kernels with stride=1 result will be 222x222x5
 
+kernels are feature extractors or matrix of values which is used to convolve input image and identify patterns or edges or objects in image.
 
 # Q2)Why should we only (well mostly) use 3x3 Kernels?
 
