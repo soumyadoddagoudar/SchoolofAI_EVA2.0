@@ -23,7 +23,7 @@ Q3)How many times do we need to perform 3x3 convolution operation to reach 1x1 f
 solution: - Number of times required to perform 3x3 convolution operation to reach 1x1 from 199x199  is: 99
 
 
-n=199
+n=199  &nbsp;
 count=0
 while n>=3:
     count=count+1
