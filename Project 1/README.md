@@ -23,14 +23,14 @@ Q3)How many times do we need to perform 3x3 convolution operation to reach 1x1 f
 solution: - Number of times required to perform 3x3 convolution operation to reach 1x1 from 199x199  is: 99
 
 
-n=199  &nbsp;
-count=0
-while n>=3:
-    count=count+1
-    print('<br>'+str(n)+'x'+str(n)+'  '+'conv'+'  '+'3x3'+'----------------> '+ str(n-2)+'x'+str(n-2)+'<br/>')
-    n=n-2 
+n=199  <br/>
+count=0 <br/>
+while n>=3: <br/>
+    count=count+1 <br/>
+    print('<br>'+str(n)+'x'+str(n)+'  '+'conv'+'  '+'3x3'+'----------------> '+ str(n-2)+'x'+str(n-2)+'<br/>') <br/>
+    n=n-2 <br/>
     
-print("Number of times required to perform 3x3 convolution operation to reach 1x1 from 199x199  is:",count)
+print("Number of times required to perform 3x3 convolution operation to reach 1x1 from 199x199  is:",count)<br/>
 
 
 <br>199x199  conv  3x3----------------> 197x197<br/>
