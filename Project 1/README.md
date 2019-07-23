@@ -1,7 +1,7 @@
 
 Questions:
 
-*****Q1) What are Channels and Kernels (according to EVA)?
+**Q1) What are Channels and Kernels (according to EVA)?
 
 channels is a container of similar things like input image can be divided into 3 channels RGB.R channel contains red color object information.similarly green and blue.
 Each filter applied to image will generate one result.
