@@ -24,3 +24,4 @@ Q3)How many times do we need to perform 3x3 convolution operation to reach 1x1 f
 199x199|3x3 >197x197
 
 
+
