@@ -33,7 +33,7 @@ print("Number of times required to perform 3x3 convolution operation to reach 1x
 
 
 
-199x199  conv  3x3----------------> 197x197
+<br>199x199  conv  3x3----------------> 197x197<br/>
 197x197  conv  3x3----------------> 195x195
 195x195  conv  3x3----------------> 193x193
 193x193  conv  3x3----------------> 191x191
